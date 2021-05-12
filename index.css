@@ -39,11 +39,11 @@ body{
 
 .logo{
    
-    font-weight: 400;
     color:aliceblue;
-
     letter-spacing: 1px;
     font-size: 1.8em;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 100;
 }
 .logo:hover{
     color:aliceblue;
@@ -55,6 +55,10 @@ body{
     font-size: 1em;
     text-transform: uppercase;
     font-weight: 100;
+}
+
+#link{
+    margin: 0 0;
 }
 
 .con{
@@ -107,9 +111,7 @@ body{
 
 
 .sec2{
-    height:fit-content;
-    
-   
+    height:fit-content;  
 }
 
 .sec2-main{
@@ -202,7 +204,7 @@ body{
 }
 
 .sec3-main>P{
-    font-size:36px;
+    font-size:2.2em;
     color:#FFFFFF;
     font-family: 'Barlow', sans-serif;
 }
@@ -221,8 +223,46 @@ body{
     color: #8A8A8A;
 }
 
+.sec4{
+    border: 1px solid rgb(114, 112, 112) ;
+    height:100%;
+
+}
+
+.sec4-main{
+    background: url(./home/Fourth.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    border-right: 1px solid rgb(114, 112, 112) ;
+    display: flex;
+    flex-direction: column;
+    line-height: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4-main>P{
+    font-size:36px;
+    color:#FFFFFF;
+    font-family: 'Barlow', sans-serif;
+}
+
+.sec4-side{
+   
+    display: flex;
+    flex-direction: column;
+   
+}
+.sec4-side>p{
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.2;
+    line-height: 1.6em;
+    color: #8A8A8A;
+}
 .con2{
-    height: 55px;
+    height: 3em;
     width: min(18vh,200px);
     background-color: #1b1c1e;
     border: 1px solid white;
@@ -267,30 +307,52 @@ body{
     .heading-below{
         font-size: 1em;  
     }
-
-
-    .sec2-main{
-        display: block ;
-    }
+.sec2-main{
+    padding: 0 0;
+}
     .section3{
         margin-top: 105vh;
         padding: 0 0;
         border: 0px;
     }
     .sec3-main{
-        height: 20em;
+        height: 10em;
+    }
+    .sec3-main>p{
+        font-size: 1.5em;
     }
    .sec3{
        margin:4em 0 0 0;
        border: 0px;
-   }
+   } 
+   .sec3-side{
+    padding:2em 3em 0 3em;
+}
+.sec3-side>p{
+    font-size: 0.95em;
+}
+
    .con2{
        margin-top: 1em;
    }
-   
-   .sec3-side{
-    padding:4em 3em 0 3em;
+   .sec4-main{
+    height: 10em;
 }
+.sec4-main>p{
+    font-size: 1.5em;
+}
+.sec4{
+   margin:4em 0 0 0;
+   border: 0px;
+} 
+.sec4-side{
+padding:2em 3em 0 3em;
+}
+.sec4-side>p{
+font-size: 0.95em;
+}
+
+  
    
 }
 
@@ -327,14 +389,26 @@ body{
        margin:4em 0 0 0;
        border: 0px;
    }
-   .con2{
-       margin-top: 1em;
-   }
-   
+  
    .sec3-side{
     padding:4em 3em 0 3em;
 }
-   
+
+.sec4-main{
+    height: 20em;
+}
+.sec4{
+   margin:4em 0 0 0;
+   border: 0px;
+}
+
+.sec4-side{
+padding:4em 3em 0 3em;
+}
+
+    .con2{
+       margin-top: 1em;
+   }
   
 }
 
@@ -364,14 +438,26 @@ body{
        margin:4em 0 0 0;
        border: 0px;
    }
-   .con2{
-       margin-top: 2em;
-   }
+  
    
    .sec3-side{
     padding:4em 10em 0 10em;
 }
-  
+   .con2{
+       margin-top: 2em;
+   }
+   .sec4-main{
+    height: 20em;
+}
+.sec4{
+   margin:4em 0 0 0;
+   border: 0px;
+}
+
+
+.sec4-side{
+padding:4em 10em 0 10em;
+}
 
 }
 
@@ -390,11 +476,16 @@ body{
         margin-top: 8vh;
         margin-left: 5vw;
     }
+    .card{
+       margin: 0.5em;
+    }
+
     .sec2{
         border: 1px solid rgb(114, 112, 112) ;
     }
     .section2{
         padding: 0 5em 0 5em;
+    
     }
     .section3{
         padding: 0 4em;
@@ -404,11 +495,24 @@ body{
     }
    .sec3{
        margin:4em 0 0 0;
-      
+  
    }
    
    .sec3-side{
-    padding:4em 10em 0 10em;
+       height: 30em;
+    padding:2em 5em 0 5em;
+}
+.sec4-main{
+    height: 20em;
+}
+.sec4{
+   margin:0 0 0 0;
+  
+  
+}
+
+.sec4-side{
+padding:4em 10em 0 10em;
 }
    
 }
@@ -447,6 +551,17 @@ body{
    
    .sec3-side{
     padding:4em 10em 0 10em;
+}
+.sec4-main{
+    height: 80em;
+}
+.sec4{
+   margin:0 0 0 0;
+  
+}
+
+.sec4-side{
+padding:4em 10em 0 10em;
 }
 }
 
@@ -493,6 +608,17 @@ body{
    
    .sec3-side{
     padding:4em 5em 0 5em;
+}
+.sec4{
+    margin:0 0 0 0;
+   
+}
+.sec4-main{
+ height: 50em;
+}
+
+.sec4-side{
+ padding:4em 5em 0 5em;
 }
 }
 /* why */
@@ -547,5 +673,16 @@ body{
    
    .sec3-side{
     padding:4em 10em 0 10em;
+}
+.sec4{
+    margin:0 0 0 0;
+   
+}
+.sec4-main{
+ height: 45em;
+}
+
+.sec4-side{
+ padding:4em 10em 0 10em;
 }
 }
