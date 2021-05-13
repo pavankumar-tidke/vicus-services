@@ -300,6 +300,12 @@ body{
         margin-top: 8vh;
         margin-left: 5vw;
     }
+
+    .one>p{
+        font-size: 1em;
+        margin: 0 0;
+        padding:1.5em 1.5em ;
+    }
     .heading{
         font-size: 2em;
         line-height: 1.3em;
@@ -308,14 +314,16 @@ body{
         font-size: 1em;  
     }
 .sec2-main{
-    padding: 0 0;
+    padding: 1.2em 0;
 }
     .section3{
         margin-top: 105vh;
         padding: 0 0;
         border: 0px;
     }
+    
     .sec3-main{
+        margin-top: 8em;
         height: 10em;
     }
     .sec3-main>p{
@@ -373,9 +381,14 @@ font-size: 0.95em;
         font-size: 1.2em;  
     }
 
-
-    .sec2-main{
-        display: block ;
+    .one>p{
+        font-size: 1em;
+        margin: 0 0;
+        padding:1.5em 1.5em ;
+    }
+    .sec2-head{
+        margin: 0 0;
+        padding: 0 0;
     }
     .section3{
         margin-top: 105vh;
@@ -383,7 +396,10 @@ font-size: 0.95em;
         border: 0px;
     }
     .sec3-main{
-        height: 20em;
+        height: 15em;
+    }
+    .sec3-main>p{
+        font-size: 1.9em;
     }
    .sec3{
        margin:4em 0 0 0;
@@ -395,7 +411,7 @@ font-size: 0.95em;
 }
 
 .sec4-main{
-    height: 20em;
+    height: 15em;
 }
 .sec4{
    margin:4em 0 0 0;
@@ -426,6 +442,12 @@ padding:4em 3em 0 3em;
     .head{
         margin-top: 8vh;
         margin-left: 5vw;
+    }
+    .heading{
+        font-size: 4em;
+    }
+    .heading-below{
+        font-size: 1.5em;
     }
     .section3{
         padding: 0 0;
@@ -462,7 +484,7 @@ padding:4em 10em 0 10em;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 991px) and (min-width: 768px) {
+@media only screen and (max-width: 993px) and (min-width: 768px) {
     #main{
         padding-left:8vw;
         padding-right:10vw;
