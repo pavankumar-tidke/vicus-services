@@ -650,8 +650,6 @@ font-size: 0.95em;
     .nav-item{
       margin: 3em 0 0 0;
     }
-    
-    
   
     .head{
         height: 60vh;
@@ -682,7 +680,7 @@ font-size: 0.95em;
     }
     .sec3-main{
         height: 15em;
-        border-right: 0px solid rgb(114, 112, 112) ;
+        border-right: 0px  ;
     }
     .sec3-main>p{
         font-size: 1.9em;
@@ -698,7 +696,7 @@ font-size: 0.95em;
 
 .sec4-main{
     height: 15em;
-    border-right: 0px solid rgb(114, 112, 112) ;
+    border-right: 0px ;
 }
 .sec4{
    margin:4em 0 0 0;
@@ -713,7 +711,7 @@ padding:4em 3em 0 3em;
        margin-top: 1em;
    }
    .one{
-    border-right: 0px solid rgb(114, 112, 112) ;
+    border-right: 0px  ;
 }
   
 }
@@ -757,7 +755,7 @@ padding:4em 3em 0 3em;
       margin: 3em 0 0 0;
     }
     .one{
-        border-right: 0px solid rgb(114, 112, 112) ;
+        border-right: 0px ;
     }
     .head{
         margin-top: 8vh;
@@ -775,7 +773,7 @@ padding:4em 3em 0 3em;
     }
     .sec3-main{
         height: 20em;
-        border-right: 0px solid rgb(114, 112, 112) ;
+        border-right: 0px ;
     }
    .sec3{
        margin:4em 0 0 0;
@@ -791,7 +789,7 @@ padding:4em 3em 0 3em;
    }
    .sec4-main{
     height: 20em;
-    border-right: 0px solid rgb(114, 112, 112) ;
+    border-right: 0px  ;
 }
 .sec4{
    margin:4em 0 0 0;
@@ -836,6 +834,7 @@ padding:4em 10em 0 10em;
     }
     .sec3-main{
         height: 20em;
+        border-right: 0px  ;
     }
    .sec3{
        margin:4em 0 0 0;
@@ -848,6 +847,7 @@ padding:4em 10em 0 10em;
 }
 .sec4-main{
     height: 20em;
+    border-right: 0px solid rgb(114, 112, 112) ;
 }
 .sec4{
     padding: 0 0 2em 0;
@@ -888,6 +888,7 @@ padding:4em 10em 0 10em;
     }
     .sec3-main{
         height: 80em;
+        border-right: 0px;
     }
    .sec3{
        margin:4em 0 0 0;
