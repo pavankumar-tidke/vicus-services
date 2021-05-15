@@ -10,19 +10,20 @@ body::-webkit-scrollbar-track
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	border-radius: 5em;
   background-color: transparent;
-    z-index: 1000;
+    z-index: 1;
+
 }
 
 body::-webkit-scrollbar
 {
 	width: 0.5em;
-    z-index: 1000;
+    z-index: 1;
   background-color: transparent;
 }
 
 body::-webkit-scrollbar-thumb
 {
-    z-index: 1000;
+    z-index: 1;
 	border-radius: 3em;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #555;
@@ -30,7 +31,9 @@ body::-webkit-scrollbar-thumb
 body{
     background-color: rgb(20, 20, 22);
 }
-
+.all , .section2 , .section3 , .last{
+    z-index: 0;
+}
 .animated-icon1, .animated-icon2, .animated-icon3 {
     width: 30px;
     height: 20px;
@@ -615,7 +618,9 @@ padding:2em 3em 0 3em;
 font-size: 0.95em;
 }
 
-  
+.one{
+    border-right: 0px solid rgb(114, 112, 112) ;
+}
    
 }
 
@@ -709,6 +714,9 @@ padding:4em 3em 0 3em;
     .con2{
        margin-top: 1em;
    }
+   .one{
+    border-right: 0px solid rgb(114, 112, 112) ;
+}
   
 }
 
@@ -750,7 +758,9 @@ padding:4em 3em 0 3em;
     .nav-item{
       margin: 3em 0 0 0;
     }
-    
+    .one{
+        border-right: 0px solid rgb(114, 112, 112) ;
+    }
     .head{
         margin-top: 8vh;
         margin-left: 5vw;
