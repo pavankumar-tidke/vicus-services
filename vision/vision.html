@@ -13,7 +13,9 @@
     <title>Vision | Vicus Services</title>
 </head>
 <body onscroll="disableScrolling()" 
-onmousewheel="enableScrolling()">
+onmousewheel="enableScrolling()"
+onclick="enableScrolling()"
+  onmousemove="enableScrolling()">
   <div id="style">
     <div class="all"> 
         <header id="main">
@@ -106,14 +108,19 @@ onmousewheel="enableScrolling()">
       
           // JavaScript code
           function disableScrolling() {
-              setTimeout(function() {
-                  document.body.style.overflow = 'hidden';
-              }, 1000);
-          }
-            
-          function enableScrolling() {
-              document.body.style.overflow = '';
-          }
+            function disableScrolling() {
+    setTimeout(function() {
+      var style = document.createElement("style");
+  style.innerHTML = `body::-webkit-scrollbar {width:0;}`;
+  document.body.appendChild(style);
+    }, 1000);
+}
+  
+function enableScrolling() {
+  var style = document.createElement("style");
+  style.innerHTML = `body::-webkit-scrollbar {width:0.5em;}`;
+  document.body.appendChild(style);
+}
       </script>
     <script src="./vision.js"></script> 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

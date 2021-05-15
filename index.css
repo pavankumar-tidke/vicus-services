@@ -24,6 +24,7 @@ body::-webkit-scrollbar
 body::-webkit-scrollbar-thumb
 {
 
+
 	border-radius: 3em;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #555;
@@ -31,6 +32,9 @@ body::-webkit-scrollbar-thumb
 body{
     background-color: rgb(20, 20, 22);
 }
+
+
+
 
 .animated-icon1, .animated-icon2, .animated-icon3 {
     width: 30px;
@@ -573,6 +577,7 @@ body{
     .sec3-main{
         margin-top: 8em;
         height: 10em;
+        border-right: 0px solid rgb(114, 112, 112) ;
     }
     .sec3-main>p{
         font-size: 1.5em;
@@ -593,6 +598,7 @@ body{
    }
    .sec4-main{
     height: 10em;
+    border-right: 0px solid rgb(114, 112, 112) ;
 }
 .sec4-main>p{
     font-size: 1.5em;
@@ -676,6 +682,7 @@ font-size: 0.95em;
     }
     .sec3-main{
         height: 15em;
+        border-right: 0px solid rgb(114, 112, 112) ;
     }
     .sec3-main>p{
         font-size: 1.9em;
@@ -691,6 +698,7 @@ font-size: 0.95em;
 
 .sec4-main{
     height: 15em;
+    border-right: 0px solid rgb(114, 112, 112) ;
 }
 .sec4{
    margin:4em 0 0 0;
@@ -767,6 +775,7 @@ padding:4em 3em 0 3em;
     }
     .sec3-main{
         height: 20em;
+        border-right: 0px solid rgb(114, 112, 112) ;
     }
    .sec3{
        margin:4em 0 0 0;
@@ -782,6 +791,7 @@ padding:4em 3em 0 3em;
    }
    .sec4-main{
     height: 20em;
+    border-right: 0px solid rgb(114, 112, 112) ;
 }
 .sec4{
    margin:4em 0 0 0;
