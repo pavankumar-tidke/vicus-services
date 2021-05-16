@@ -32,8 +32,6 @@ body{
 }
 
 
-
-
 .animated-icon1, .animated-icon2, .animated-icon3 {
     width: 30px;
     height: 20px;
@@ -153,52 +151,50 @@ body{
     left: 50%;
     }
       
-
-.all{
-    background:url(./home/hero.png);
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
-    background-attachment: fixed;
-}
-
-
-.verticalLine {
-    border-left: thick solid rgb(235, 235, 235);
-    width: 5px;
-    border-radius:1.3px;
-    height: 25px;
-    margin-top: 5px;
-    
+  .all{
+      background:url(../home/services.png);
+      background-repeat: no-repeat;
+      background-size: 100vw 100vh;
+      background-attachment: fixed;
   }
-
-.logo{
-   
-    color:aliceblue;
-    letter-spacing: 1px;
-    font-size: 1.8em;
-    font-family: 'Barlow', sans-serif;
-    font-weight: 100;
-}
-.logo:hover{
-    color:aliceblue;
-}
-
-#link>li>a{
-    color:aliceblue;
   
-    font-size: 1em;
-    text-transform: uppercase;
-    font-weight: 100;
-}
-
-#link{
-    margin: 0 0;
-}
-
+  
+  .verticalLine {
+      border-left: thick solid #999696;
+      width: 5px;
+      border-radius:1.3px;
+      height: 25px;
+      margin-top: 5px;
+      
+    }
+  
+  .logo{
+     
+      color:aliceblue;
+      letter-spacing: 1px;
+      font-size: 1.8em;
+      font-family: 'Barlow', sans-serif;
+      font-weight: 100;
+  }
+  .logo:hover{
+      color:aliceblue;
+  }
+  
+  #link>li>a{
+      color:aliceblue;
+    
+      font-size: 1em;
+      text-transform: uppercase;
+      font-weight: 100;
+  }
+  
+  #link{
+      margin: 0 0;
+  }
 .con{
     height: 3em;
     width: min(16vh,200px);
-    background-color: #1b1c1e;
+    background-color: black;
     border: 1px solid white;
     text-decoration: none;
     border-radius: 5px;
@@ -213,7 +209,7 @@ body{
 
 .con:hover a{
     background-color: #889CE7;
-    color: #141416;
+    color: black;
     border: 2px solid #889CE7;
 }
 .con:hover{
