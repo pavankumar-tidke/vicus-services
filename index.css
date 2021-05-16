@@ -152,7 +152,7 @@ body{
     }
       
   .all{
-      background:url(../home/services.png);
+      background:url(./home/hero.png);
       background-repeat: no-repeat;
       background-size: 100vw 100vh;
       background-attachment: fixed;

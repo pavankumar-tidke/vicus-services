@@ -329,8 +329,10 @@ body{
 } */
 
 .sec3-side>img{
-  height:100%;
-  width: 100%;
+  align-self: center;
+  height:auto;
+  width: 35vw;
+
 }
 /* .sec4-main{
   background: url(../home/services.png);
