@@ -563,6 +563,7 @@ body{
         width: 100%;
         height: auto;
         padding: 1em 1em;
+        border-radius: 15px;
     }
     .one>p{
         font-size: 0.9em;
@@ -664,7 +665,19 @@ font-size: 0.9em;
         width: 100%;
         height: auto;
         padding: 1em 1em;
+        border-radius: 15px;
     }
+
+     .card >h5{
+         padding:  0 0;
+         margin: -50px 0 0 5%;
+         font-size: 15px;
+     }   
+     
+     .card >p{
+        padding:  0 0;
+        margin: 18px 0 1.5% 1.5%;
+    } 
     .one>p{
         font-size: 1em;
         margin: 0 0;
@@ -681,12 +694,12 @@ font-size: 0.9em;
     padding: 1.2em 0;
 }
 .section3{
-    
+  
     padding: 0 0;
     border: 0px;
 }
     .sec3-main{
-        margin-top: 38em;
+        margin-top: 25em;
         height: 12em;
         border-right: 0px solid rgb(114, 112, 112) ;
     }
@@ -778,7 +791,15 @@ font-size: 0.95em;
     .heading-below{
         font-size: 1.2em;  
     }
+    .cards{
+        border: 1px solid rgb(114, 112, 112) ;
+    }
+    .card{
+    
+        border-radius: 15px;
+    }
 
+   
     .one>p{
         font-size: 1em;
         margin: 0 0;
