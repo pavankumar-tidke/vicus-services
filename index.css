@@ -174,7 +174,7 @@ body{
       letter-spacing: 1px;
       font-size: 1.8em;
       font-family: 'Barlow', sans-serif;
-      font-weight: 100;
+      
   }
   .logo:hover{
       color:aliceblue;
@@ -857,7 +857,7 @@ padding:4em 3em 0 3em;
 @media only screen and (max-width: 768px) and (min-width: 601px) {
     #main{
         padding-left:3vw;
-        padding-right:10vw;
+        padding-right:3vw;
 
     }
 
@@ -1049,6 +1049,16 @@ padding:4em 10em 0 10em;
 
 /* special */
 @media screen and (max-width: 1199px) and (min-width: 991px){
+
+    #main{
+        padding-left:8vw;
+        padding-right:8vw;
+        padding-top: 1vh;
+    }
+
+    #link>li{
+        padding-left: 2.2em;
+    }
     .head{
         margin-top: 8vh;
         margin-left: 7.5vw;
@@ -1116,6 +1126,7 @@ padding:4em 10em 0 10em;
 {
     #main{
         padding-left:8vw;
+        padding-right:8vw;
         padding-top: 1vh;
     }
 

@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
 *{
   margin:0;
   padding: 0;
@@ -152,37 +152,6 @@ body{
   left: 50%;
   }
     
-  .con{
-    height: 3em;
-    width: min(16vh,200px);
-    background-color: black;
-    border: 1px solid white;
-    text-decoration: none;
-    border-radius: 5px;
-    
-}
-.con>a{
-    align-items: center;
-    font-size: 15px;
-    font-weight: 500;
-    color: aliceblue;
-}
-
-.con:hover a{
-    background-color: #889CE7;
-    color: black;
-    border: 2px solid #889CE7;
-}
-.con:hover{
-    background-color: #889CE7;
-    
-    border: 2px solid #889CE7;
-}
-.con>a:hover{
-    background-color: #889CE7;
-    text-decoration: none;
-   
-}
 .all{
     background:url(../home/hero.png);
     background-repeat: no-repeat;
@@ -206,7 +175,7 @@ body{
     letter-spacing: 1px;
     font-size: 1.8em;
     font-family: 'Barlow', sans-serif;
-    font-weight: 100;
+    
 }
 .logo:hover{
     color:aliceblue;
@@ -214,14 +183,46 @@ body{
 
 #link>li>a{
     color:aliceblue;
-  
     font-size: 1em;
     text-transform: uppercase;
     font-weight: 100;
 }
 
 #link{
-    margin: 0 0;
+    margin-left: auto;
+    padding: 0 0;
+}
+
+.con{
+  height: 3em;
+  width: min(16vh,200px);
+  background-color: black;
+  border: 1px solid white;
+  text-decoration: none;
+  border-radius: 5px;
+  
+}
+.con>a{
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.con:hover a{
+  background-color: #889CE7;
+  color: black;
+  border: 2px solid #889CE7;
+}
+.con:hover{
+  background-color: #889CE7;
+  
+  border: 2px solid #889CE7;
+}
+.con>a:hover{
+  background-color: #889CE7;
+  text-decoration: none;
+ 
 }
 
 
@@ -841,7 +842,7 @@ align-self: center;
 @media only screen and (max-width: 768px) and (min-width: 601px) {
   #main{
     padding-left:3vw;
-    padding-right:10vw;
+    padding-right:3vw;
 
 }
 
@@ -987,14 +988,14 @@ align-self: center;
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) 
 {
-    #main{
-        padding-left:8vw;
-        padding-top: 1vh;
-        padding-right: 3.6vh;
-    }
+  #main{
+    padding-left:8vw;
+    padding-right:5vw;
+    padding-top: 1vh;
+}
 
-    #link>li{
-        padding-left: 2.2em;
-    }
+#link>li{
+    padding-left: 2.2em;
+}
     
 }
