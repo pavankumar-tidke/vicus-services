@@ -244,7 +244,7 @@ margin-top: 15% ;
 }
 
 .section1{
-  border: 1px solid rgba(255, 255, 255, 0.342);
+  border: 1px solid rgba(57, 57, 63, 0.911) ;
 }
 .sec1-main{
 padding: 5% 5%;
@@ -261,7 +261,7 @@ align-self: center;
   width: auto;
 }
 .sec1-side{
-  border: 1px solid rgba(255, 255, 255, 0.342);
+  border-left: 1px solid rgba(57, 57, 63, 0.911) ;
     padding: 3em 7em 3em 4em;
   }
   .sec1-side>h5>img{
@@ -283,11 +283,11 @@ align-self: center;
   margin-top: 0px;
 }
 .section2{
-  border: 1px solid rgba(255, 255, 255, 0.342);
+  border: 1px solid rgba(57, 57, 63, 0.911) ;
   height: 50vh;
 }
 .sec2-main{
-  border-right:1px solid rgba(255, 255, 255, 0.342) ;
+  border-right:1px solid rgba(57, 57, 63, 0.911)  ;
   background: url(../home/services.png);
   background-repeat: no-repeat;
   background-size:cover;
@@ -492,6 +492,7 @@ align-self: center;
   }
   .sec2-main{
     height: 30vh;
+    border-right:0px solid rgba(57, 57, 63, 0.911)  ;
   }
   .sec2-main>p{
     font-size: 5vh;
@@ -511,7 +512,7 @@ align-self: center;
 
   }
 
-  @media only screen and (max-width: 301x) and (min-width: 265px){
+  @media only screen and (max-width: 301px) and (min-width: 265px){
     .navbar-collapse {
         position: absolute;
         background-color: #141416;
@@ -577,6 +578,7 @@ align-self: center;
     }
     .sec2-main{
       height: 30vh;
+      border-right:0px solid rgba(57, 57, 63, 0.911)  ;
     }
     .sec2-main>p{
       font-size: 5vh;
@@ -659,6 +661,7 @@ align-self: center;
 }
 .sec2-main{
   height: 30vh;
+  border-right:0px solid rgba(57, 57, 63, 0.911)  ;
 }
 .sec2-side{
   padding: 0 2em 0 2em;
@@ -737,6 +740,7 @@ align-self: center;
   }
   .sec2-main{
     height: 30vh;
+    border-right:0px solid rgba(57, 57, 63, 0.911)  ;
   }
   .sec2-side{
     padding: 0 4em 0 4em;
@@ -815,6 +819,7 @@ align-self: center;
 }
 .sec2-main{
   height: 30vh;
+  border-right:0px solid rgba(57, 57, 63, 0.911)  ;
 }
 .sec2-side{
   padding: 0 4em 0 4em;
@@ -902,6 +907,7 @@ align-self: center;
     }
     .sec2-main{
       height: 30vh;
+      border-right:0px solid rgba(57, 57, 63, 0.911)  ;
     }
     .sec2-side{
       padding: 0 4em 0 4em;
@@ -940,6 +946,7 @@ align-self: center;
     }
     .sec1-side{
       padding: 3em 3em 3em 4em;
+      border-left:0px solid rgba(57, 57, 63, 0.911) ;
     }
     .sec1-side>h5>img{
       display: inline;
@@ -972,7 +979,7 @@ align-self: center;
       line-height: 1.3em;
     }
     .sec1-side{
-      border: 1px solid rgb(0, 128, 0);
+      border-left:1px solid rgba(57, 57, 63, 0.911) ;
         padding: 2em 6em 2em 3em;
       }
 }

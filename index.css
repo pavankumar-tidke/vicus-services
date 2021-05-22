@@ -182,14 +182,14 @@ body{
   
   #link>li>a{
       color:aliceblue;
-    
       font-size: 1em;
       text-transform: uppercase;
       font-weight: 100;
   }
   
   #link{
-      margin: 0 0;
+      margin-left: auto;
+      padding: 0 0;
   }
 .con{
     height: 3em;
@@ -263,7 +263,7 @@ body{
     font-weight: 100;
 }
 .one{
-    border-right: 1px solid rgb(114, 112, 112) ;
+    border-right: 1px solid rgba(57, 57, 63, 0.911)  ;
     background: url(./home/services.png);
     background-repeat: no-repeat;
     background-size:cover;
@@ -315,7 +315,7 @@ body{
 }
 
 .sec3{
-    border: 1px solid rgb(114, 112, 112) ;
+    border: 1px solid rgba(57, 57, 63, 0.911)  ;
     height:100%;
 
 }
@@ -325,7 +325,7 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:fixed;
-    border-right: 1px solid rgb(114, 112, 112) ;
+    border-right: 1px solid rgba(57, 57, 63, 0.911)  ;
     display: flex;
     flex-direction: column;
     line-height: 2em;
@@ -354,7 +354,7 @@ body{
 }
 
 .sec4{
-    border: 1px solid rgb(114, 112, 112) ;
+    border: 1px solid rgba(57, 57, 63, 0.911)  ;
     height:100%;
 
 }
@@ -364,7 +364,7 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment:fixed;
-    border-right: 1px solid rgb(114, 112, 112) ;
+    border-right: 1px solid rgba(57, 57, 63, 0.911)  ;
     display: flex;
     flex-direction: column;
     line-height: 2em;
@@ -952,14 +952,14 @@ padding:4em 10em 0 10em;
     }
     .head{
         margin-top: 8vh;
-        margin-left: 5vw;
+        margin-left: 7.5vw;
     }
     .card{
        margin: 0.5em;
     }
 
     .sec2{
-        border: 1px solid rgb(114, 112, 112) ;
+        border: 1px solid rgba(57, 57, 63, 0.911)  ;
     }
     .section2{
         padding: 0 5em 0 5em;
@@ -1011,10 +1011,10 @@ padding:4em 10em 0 10em;
   
     .head{
         margin-top: 8vh;
-        margin-left: 5vw;
+        margin-left: 7.5vw;
     }
     .sec2{
-        border: 1px solid rgb(114, 112, 112) ;
+        border: 1px solid rgba(57, 57, 63, 0.911)  ;
     }
     .section2{
         padding: 0 5em 0 5em;
@@ -1049,6 +1049,11 @@ padding:4em 10em 0 10em;
 
 /* special */
 @media screen and (max-width: 1199px) and (min-width: 991px){
+    .head{
+        margin-top: 8vh;
+        margin-left: 7.5vw;
+    }
+
     .card>svg{
         height:25px;
         width: auto;
@@ -1086,6 +1091,7 @@ padding:4em 10em 0 10em;
    }
    .sec3-main{
     height: 50em;
+    border-right: 1px solid rgba(57, 57, 63, 0.911)  ;
 }
    
    .sec3-side{
@@ -1120,11 +1126,11 @@ padding:4em 10em 0 10em;
     
     .head{
         margin-top: 8vh;
-        margin-left: 5vw;
+        margin-left: 7.5vw;
     }
 
     .sec2{
-        border: 1px solid rgb(114, 112, 112) ;
+        border: 1px solid rgba(57, 57, 63, 0.911)  ;
     }
     .section2{
         padding: 0 5em 0 5em;
@@ -1151,6 +1157,7 @@ padding:4em 10em 0 10em;
    }
    .sec3-main{
     height: 45em;
+    border-right: 1px solid rgba(57, 57, 63, 0.911)  ;
 }
    
    .sec3-side{
