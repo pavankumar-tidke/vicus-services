@@ -489,7 +489,7 @@ align-self: center;
   
   }
   .section2{
-    height: 70vh;
+    height:fit-content;
   }
   .sec2-main{
     height: 30vh;
@@ -499,7 +499,8 @@ align-self: center;
     font-size: 5vh;
   }
   .sec2-side{
-    padding: 0 2em 0 2em;
+   
+    padding: 1em 2em 1em 2em;
     font-size: 1em;
     line-height: 1.5em;
 
@@ -575,7 +576,7 @@ align-self: center;
     
     }
     .section2{
-      height: 70vh;
+      height:fit-content;
     }
     .sec2-main{
       height: 30vh;
@@ -585,7 +586,7 @@ align-self: center;
       font-size: 5vh;
     }
     .sec2-side{
-      padding: 0 2em 0 2em;
+      padding: 1em 2em 1em 2em;
       font-size: 1em;
       line-height: 1.5em;
   
@@ -658,14 +659,14 @@ align-self: center;
 
 }
 .section2{
-  height: 70vh;
+  height:fit-content;
 }
 .sec2-main{
   height: 30vh;
   border-right:0px solid rgba(57, 57, 63, 0.911)  ;
 }
 .sec2-side{
-  padding: 0 2em 0 2em;
+  padding: 1em 2em 1em 2em;
   font-size: 1em;
   line-height: 29px;
   color: #8a8a8a;
@@ -737,14 +738,14 @@ align-self: center;
   
   }
   .section2{
-    height: 70vh;
+    height:fit-content;
   }
   .sec2-main{
     height: 30vh;
     border-right:0px solid rgba(57, 57, 63, 0.911)  ;
   }
   .sec2-side{
-    padding: 0 4em 0 4em;
+    padding: 1em 4em 1em 4em;
     font-size: 1em;
     line-height: 29px;
     color: #8a8a8a;
@@ -757,7 +758,7 @@ align-self: center;
     font-size: 13px;
   }
   }
-@media only screen and (max-width: 600px) and (min-width: 400px) {
+@media only screen and (max-width: 601px) and (min-width: 400px) {
   .navbar-collapse {
     position: absolute;
     background-color: #141416;
@@ -816,14 +817,14 @@ align-self: center;
 
 }
 .section2{
-  height: 65vh;
+  height:fit-content;
 }
 .sec2-main{
   height: 30vh;
   border-right:0px solid rgba(57, 57, 63, 0.911)  ;
 }
 .sec2-side{
-  padding: 0 4em 0 4em;
+  padding: 1em 4em 1em 4em;
   font-size: 1.05em;
   line-height: 29px;
   color: #8a8a8a;
@@ -904,14 +905,14 @@ align-self: center;
 
     }
     .section2{
-      height: 65vh;
+      height:fit-content;
     }
     .sec2-main{
       height: 30vh;
       border-right:0px solid rgba(57, 57, 63, 0.911)  ;
     }
     .sec2-side{
-      padding: 0 4em 0 4em;
+      padding: 1em 4em 1em 4em;
       font-size: 18px;
       line-height: 29px;
       color: #8a8a8a;
