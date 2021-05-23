@@ -193,7 +193,8 @@ body{
   }
 .con{
     height: 3em;
-    width: min(16vh,200px);
+    width:fit-content;
+    padding: 0 1vw;
     background-color: black;
     border: 1px solid white;
     text-decoration: none;
@@ -391,9 +392,11 @@ body{
     line-height: 1.6em;
     color: #8A8A8A;
 }
+
 .con2{
     height: 3em;
-    width: min(18vh,200px);
+    width:fit-content;
+    padding:0 1em;
     background-color: #1b1c1e;
     border: 1px solid white;
     text-decoration: none;
@@ -517,13 +520,15 @@ body{
     .navbar-collapse {
         position: absolute;
         background-color: #141416;
-        height: 100vh;
-        top:100%;
+        padding-bottom: 2vh;
+        height:fit-content;
+        top:15vh;
         align-items: center;
         width: 100%;
     }
     .navbar-collapse.collapsing {
-        height: auto;
+        padding-bottom: 2vh;
+        height:fit-content;
         -webkit-transition: right 0.3s ease;
         -o-transition: right 0.3s ease;
         -moz-transition: right 0.3s ease;
@@ -538,24 +543,46 @@ body{
         transition: right 0.3s ease-in;
     }
     .nav-item{
-      margin: 3em 0 0 0;
+      margin: 1.1em 0 0 0;
     }
-    .head{
-        height: 60vh;
-        margin-top: 8vh;
-        margin-left: 5vw;
+    .con{
+        height: 2.6em;
+        padding: 0 2.7vw;
     }
     .logo{
         font-size: 1.3em;
+      }
+      .nav-item{
+        margin: 3em 0 0 0;
+      }
+    
+
+    .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+        width: 50%;
+    }
+    .head{
+        padding-bottom: 2vh;
+        height:fit-content;
+        margin-top: 8vh;
+        margin-left: 5vw;
+    }
+    .verticalLine {
+        width: 3px;
+
+    }
+    .logo{
+        font-size: 1.2em;
     }
     .con2{
-        height: 2.5em;
-        width: min(15vh,150px);
+    height: fit-content;    
+    width: fit-content;
+    padding: 0.4em 1em;    
     }
     .con2>a{
         font-size: 12px;
     font-weight: 400;
     }
+   
     .sec2-head{
         font-size: 3.8vh;
     }
@@ -564,7 +591,7 @@ body{
         margin: 0 0; 
     }
     .cards{
-   border: 5px solid red;
+  
    height:fit-content;
    padding: 0 0;
   
@@ -622,9 +649,7 @@ body{
     font-size: 0.9em;
 }
 
-   .con2{
-       margin-top: 1em;
-   }
+   
    .sec4-main{
     height: 10em;
     border-right: 0px solid rgb(114, 112, 112) ;
@@ -656,13 +681,15 @@ font-size: 0.9em;
     .navbar-collapse {
         position: absolute;
         background-color: #141416;
-        height: 100vh;
-        top:100%;
+        padding-bottom: 2vh;
+        height:fit-content;
+        top:13vh;
         align-items: center;
         width: 100%;
     }
     .navbar-collapse.collapsing {
-        height: auto;
+        padding-bottom: 2vh;
+        height:fit-content;
         -webkit-transition: right 0.3s ease;
         -o-transition: right 0.3s ease;
         -moz-transition: right 0.3s ease;
@@ -677,20 +704,32 @@ font-size: 0.9em;
         transition: right 0.3s ease-in;
     }
     .nav-item{
-      margin: 3em 0 0 0;
+      margin: 1.1em 0 0 0;
     }
+    .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+        width: 60%;
+    }
+    .con{
+        height: 2.6em;
+        padding: 0 2vw;
+    }
+
+    .logo{
+        font-size: 1.3em;
+      }
+      .nav-item{
+        margin: 3em 0 0 0;
+      }
     .head{
-        height: 60vh;
+        padding-bottom: 2vh;
+        height:fit-content;
         margin-top: 8vh;
         margin-left: 5vw;
     }
     .logo{
         font-size: 1.3em;
     }
-    .con2{
-        height: 2.5em;
-        width: min(15vh,150px);
-    }
+  
     .con2>a{
         font-size: 12px;
     font-weight: 400;
@@ -740,7 +779,9 @@ font-size: 0.9em;
 }
 
    .con2{
-       margin-top: 1em;
+      height: fit-content;
+      width: fit-content;
+      padding: 0.4em 1em;
    }
    .sec4-main{
     height: 10em;
@@ -772,7 +813,7 @@ font-size: 0.9em;
         position: absolute;
         background-color: #141416;
         height: 100vh;
-        top:100%;
+        top:13vh;
         align-items: center;
         width: 100%;
     }
@@ -792,14 +833,25 @@ font-size: 0.9em;
         transition: right 0.3s ease-in;
     }
     .nav-item{
-      margin: 3em 0 0 0;
+      margin: 1.8em 0 0 0;
     }
-    .head{
-        height: 60vh;
-        margin-top: 8vh;
-        margin-left: 5vw;
+    .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+        width: 60%;
+    }
+    .con{
+        height: 2.6em;
+        padding: 0 2vw;
     }
 
+    .head{
+        margin-top: 8vh;
+        margin-left: 5vw;
+        padding-bottom: 2vh;
+        height:fit-content;
+    }
+    .logo{
+        font-size: 1.6em; 
+    }
     .card{
         width: 100%;
         height: auto;
@@ -890,12 +942,14 @@ font-size: 0.95em;
     .navbar-collapse {
         position: absolute;
         background-color: #141416;
-        height: 90vh;
-        top:10vh;
+        padding-bottom: 2vh;
+        height:fit-content;
+        top:13vh;
         width: 100vw;
     }
     .navbar-collapse.collapsing {
-        height: auto;
+        padding-bottom: 2vh;
+        height:fit-content;
         -webkit-transition: right 0.2s ease;
         -o-transition: right 0.2s ease;
         -moz-transition: right 0.2s ease;
@@ -911,7 +965,10 @@ font-size: 0.95em;
     }
     
     .nav-item{
-      margin: 3em 0 0 0;
+      margin: 2em 0 0 0;
+    }
+    .con{
+        padding: 0 2vw;
     }
     /* impoertant */
     /* .card{
@@ -919,7 +976,8 @@ font-size: 0.95em;
         height: auto;
     } */
     .head{
-        height: 60vh;
+        padding-bottom: 2vh;
+        height:fit-content;
         margin-top: 8vh;
         margin-left: 5vw;
     }
@@ -1023,12 +1081,14 @@ padding:4em 3em 0 3em;
     .navbar-collapse {
         position: absolute;
         background-color: #141416;
-        height: 90vh;
-        top:10vh;
+        padding-bottom: 2vh;
+        height:fit-content;
+        top:15vh;
         width: 100vw;
     }
     .navbar-collapse.collapsing {
-        height: auto;
+        padding-bottom: 2vh;
+        height:fit-content;
         -webkit-transition: right 0.2s ease;
         -o-transition: right 0.2s ease;
         -moz-transition: right 0.2s ease;
@@ -1046,10 +1106,16 @@ padding:4em 3em 0 3em;
     .nav-item{
       margin: 3em 0 0 0;
     }
+    .con{
+        padding: 0 2vw;
+    }
+
     .one{
         border-right: 0px ;
     }
     .head{
+        padding-bottom: 2vh;
+        height:fit-content;
         margin-top: 8vh;
         margin-left: 5vw;
     }

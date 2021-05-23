@@ -195,7 +195,8 @@ body{
 
 .con{
   height: 3em;
-  width: min(16vh,200px);
+  width:fit-content;
+  padding: 0 1vw;
   background-color: black;
   border: 1px solid white;
   text-decoration: none;
@@ -229,8 +230,8 @@ body{
 .head{
   display: flex;
   justify-content: center;
-margin-top: 15% ;
-  height: 60vh;
+  align-items: center;
+  padding: 16em 0 16em 0;
 
 }
 
@@ -431,13 +432,15 @@ align-self: center;
     .navbar-collapse {
       position: absolute;
       background-color: #141416;
-      height: 100vh;
-      top:100%;
+      padding-bottom: 2vh;
+      height:fit-content;
+      top:15vh;
       align-items: center;
       width: 100%;
   }
   .navbar-collapse.collapsing {
-      height: auto;
+      padding-bottom: 2vh;
+      height:fit-content;
       -webkit-transition: right 0.3s ease;
       -o-transition: right 0.3s ease;
       -moz-transition: right 0.3s ease;
@@ -451,11 +454,28 @@ align-self: center;
       -moz-transition: right 0.3s ease-in;
       transition: right 0.3s ease-in;
   }
+  .nav-item{
+    margin: 1.1em 0 0 0;
+  }
+  .con{
+      height: 2.6em;
+      padding: 0 2.7vw;
+  }
+
+  
+
+  .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+      width: 50%;
+  }
   .logo{
     font-size: 1.3em;
   }
   .nav-item{
     margin: 3em 0 0 0;
+  }
+  .head{ 
+    padding: 8vh 0 10em 0;
+  
   }
   .hero{
     padding: 0 0em 0 0em;
@@ -516,33 +536,49 @@ align-self: center;
 
   @media only screen and (max-width: 301px) and (min-width: 265px){
     .navbar-collapse {
-        position: absolute;
-        background-color: #141416;
-        height: 100vh;
-        top:100%;
-        align-items: center;
-        width: 100%;
-    }
-    .navbar-collapse.collapsing {
-        height: auto;
-        -webkit-transition: right 0.3s ease;
-        -o-transition: right 0.3s ease;
-        -moz-transition: right 0.3s ease;
-        transition: right 0.3s ease;
-        right: -100%;
-    }
-    .navbar-collapse.show {
-        right: 0;
-        -webkit-transition: right 0.3s ease-in;
-        -o-transition: right 0.3s ease-in;
-        -moz-transition: right 0.3s ease-in;
-        transition: right 0.3s ease-in;
-    }
+      position: absolute;
+      background-color: #141416;
+      padding-bottom: 2vh;
+      height:fit-content;
+      top:13vh;
+      align-items: center;
+      width: 100%;
+  }
+  .navbar-collapse.collapsing {
+      padding-bottom: 2vh;
+      height:fit-content;
+      -webkit-transition: right 0.3s ease;
+      -o-transition: right 0.3s ease;
+      -moz-transition: right 0.3s ease;
+      transition: right 0.3s ease;
+      right: -100%;
+  }
+  .navbar-collapse.show {
+      right: 0;
+      -webkit-transition: right 0.3s ease-in;
+      -o-transition: right 0.3s ease-in;
+      -moz-transition: right 0.3s ease-in;
+      transition: right 0.3s ease-in;
+  }
+  .nav-item{
+    margin: 1.1em 0 0 0;
+  }
+  .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+      width: 60%;
+  }
+  .con{
+      height: 2.6em;
+      padding: 0 2vw;
+  }
     .logo{
       font-size: 1.3em;
     }
     .nav-item{
       margin: 3em 0 0 0;
+    }
+    .head{ 
+      padding: 10vh 0 10em 0;
+    
     }
     .hero{
       padding: 0 0em 0 0em;
@@ -605,7 +641,7 @@ align-self: center;
     position: absolute;
     background-color: #141416;
     height: 100vh;
-    top:100%;
+    top:13vh;
     align-items: center;
     width: 100%;
 }
@@ -625,7 +661,21 @@ align-self: center;
     transition: right 0.3s ease-in;
 }
 .nav-item{
-  margin: 3em 0 0 0;
+  margin: 1.8em 0 0 0;
+}
+.animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+    width: 60%;
+}
+.con{
+    height: 2.6em;
+    padding: 0 2vw;
+}
+.head{ 
+  padding: 10vh 0 10em 0;
+
+}
+.logo{
+  font-size: 1.6em; 
 }
 .hero{
   padding: 0 0em 0 0em;
@@ -683,12 +733,14 @@ align-self: center;
     .navbar-collapse {
       position: absolute;
       background-color: #141416;
-      height: 90vh;
-      top:10vh;
+      padding-bottom: 2vh;
+      height:fit-content;
+      top:13vh;
       width: 100vw;
   }
   .navbar-collapse.collapsing {
-      height: auto;
+      padding-bottom: 2vh;
+      height:fit-content;
       -webkit-transition: right 0.2s ease;
       -o-transition: right 0.2s ease;
       -moz-transition: right 0.2s ease;
@@ -701,6 +753,17 @@ align-self: center;
       -o-transition: right 0.2s ease-in;
       -moz-transition: right 0.2s ease-in;
       transition: right 0.2s ease-in;
+  }
+  
+  .nav-item{
+    margin: 2em 0 0 0;
+  }
+  .con{
+      padding: 0 2vw;
+  }
+  .head{ 
+    padding: 18vh 0 10em 0;
+  
   }
   .hero{
     padding: 0 0em 0 0em;
@@ -762,12 +825,14 @@ align-self: center;
   .navbar-collapse {
     position: absolute;
     background-color: #141416;
-    height: 90vh;
-    top:10vh;
+    padding-bottom: 2vh;
+    height:fit-content;
+    top:13vh;
     width: 100vw;
 }
 .navbar-collapse.collapsing {
-    height: auto;
+    padding-bottom: 2vh;
+    height:fit-content;
     -webkit-transition: right 0.2s ease;
     -o-transition: right 0.2s ease;
     -moz-transition: right 0.2s ease;
@@ -780,6 +845,17 @@ align-self: center;
     -o-transition: right 0.2s ease-in;
     -moz-transition: right 0.2s ease-in;
     transition: right 0.2s ease-in;
+}
+
+.nav-item{
+  margin: 2em 0 0 0;
+}
+.con{
+    padding: 0 2vw;
+}
+.head{ 
+  padding: 18vh 0 10em 0;
+
 }
 .hero{
   padding: 0 0em 0 0em;
@@ -851,30 +927,40 @@ align-self: center;
     padding-left: 1.5em;
 }
 .navbar-collapse {
-    position: absolute;
-    background-color: #141416;
-    height: 90vh;
-    top:10vh;
-    width: 100vw;
+  position: absolute;
+  background-color: #141416;
+  padding-bottom: 2vh;
+  height:fit-content;
+  top:15vh;
+  width: 100vw;
 }
 .navbar-collapse.collapsing {
-    height: auto;
-    -webkit-transition: right 0.2s ease;
-    -o-transition: right 0.2s ease;
-    -moz-transition: right 0.2s ease;
-    transition: right 0.1s ease;
-    right: -100%;
+  padding-bottom: 2vh;
+  height:fit-content;
+  -webkit-transition: right 0.2s ease;
+  -o-transition: right 0.2s ease;
+  -moz-transition: right 0.2s ease;
+  transition: right 0.1s ease;
+  right: -100%;
 }
 .navbar-collapse.show {
-    right: 0;
-    -webkit-transition: right 0.2s ease-in;
-    -o-transition: right 0.2s ease-in;
-    -moz-transition: right 0.2s ease-in;
-    transition: right 0.2s ease-in;
+  right: 0;
+  -webkit-transition: right 0.2s ease-in;
+  -o-transition: right 0.2s ease-in;
+  -moz-transition: right 0.2s ease-in;
+  transition: right 0.2s ease-in;
 }
 
 .nav-item{
-  margin: 3em 0 0 0;
+margin: 3em 0 0 0;
+}
+.con{
+  padding: 0 2vw;
+}
+.head{
+    
+  padding: 20vh 0 10em 0;
+
 }
     .hero{
       padding: 0 0em 0 0em;
@@ -935,9 +1021,12 @@ align-self: center;
         padding-left: 1.5em;
     }
 
+    .head{
+    
+      padding: 14em 0 14em 0;
+    
+    }
     .heading{
-      
- 
       line-height: 1.2em;
     }
     .hero{
@@ -975,11 +1064,7 @@ align-self: center;
     #link>li{
         padding-left: 1.7em;
     }
-    .heading{
-      
- 
-      line-height: 1.3em;
-    }
+    
     .sec1-side{
       border-left:1px solid rgba(57, 57, 63, 0.911) ;
         padding: 2em 6em 2em 3em;
