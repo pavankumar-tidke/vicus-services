@@ -190,7 +190,8 @@ body{
 
 .con{
   height: 3em;
-  width: min(16vh,200px);
+  width:fit-content;
+  padding: 0 1vw;
   background-color: black;
   border: 1px solid white;
   text-decoration: none;
@@ -219,7 +220,7 @@ body{
  
 }
 .section{
-    height: 88vh;
+    height:fit-content;
     width: 98vw;
     flex-direction: column;
  
@@ -484,61 +485,182 @@ body{
 
 
 /* media query */
-
-
 @media only screen and (max-width: 340px){
-
- 
-    
-  ::-webkit-scrollbar{
-  width: 0.1em;
-  }
   .navbar-collapse {
     position: absolute;
     background-color: #141416;
-    height: 90vh;
-    top:10vh;
-    width: 100vw;
+    padding-bottom: 2vh;
+    height:fit-content;
+    top:13vh;
+    align-items: center;
+    width: 100%;
 }
 .navbar-collapse.collapsing {
-    height: auto;
-    -webkit-transition: right 0.2s ease;
-    -o-transition: right 0.2s ease;
-    -moz-transition: right 0.2s ease;
-    transition: right 0.1s ease;
+    padding-bottom: 2vh;
+    height:fit-content;
+    -webkit-transition: right 0.3s ease;
+    -o-transition: right 0.3s ease;
+    -moz-transition: right 0.3s ease;
+    transition: right 0.3s ease;
     right: -100%;
 }
 .navbar-collapse.show {
     right: 0;
-    -webkit-transition: right 0.2s ease-in;
-    -o-transition: right 0.2s ease-in;
-    -moz-transition: right 0.2s ease-in;
-    transition: right 0.2s ease-in;
-}
-.logo{
-  font-size: 1.3em;
+    -webkit-transition: right 0.3s ease-in;
+    -o-transition: right 0.3s ease-in;
+    -moz-transition: right 0.3s ease-in;
+    transition: right 0.3s ease-in;
 }
 .nav-item{
-  margin: 3em 0 0 0;
+  margin: 1.1em 0 0 0;
 }
-.section{
-  justify-content: center;
-  align-items: center;
+.animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+    width: 60%;
 }
-  .sec-main{
-    text-align: center;
-    font-size: 3.2em;
+.con{
+    height: 2.6em;
+    padding: 0 2vw;
+}
+  .logo{
+    font-size: 1.3em;
   }
+  .nav-item{
+    margin: 3em 0 0 0;
+  }
+  .section{
+    padding: 15vh 0 15vh 3vw;
+  }
+  .sec-main{
+    font-size: 3.2em;
+    text-align: left;
+  }
+    .sec-side{
+      font-size: 1em;
+      text-align: left;
+      width: 100%;   
+    }
+    .section2{
+      padding: 0 0;
+    }
+   
+    .sec2{
+    height: fit-content;
+    
+    }
+    .sec2-main{
+      height: 10em;
+      border-right: 0px solid rgba(57, 57, 63, 0.911)  ;
+    }
+    .sec2-main>p{
+      font-size:2.4em;
+    }
+    .sec2-side{
+      padding: 1em 2em 1em 2em;
+      font-size: 1.05em;
+    }
+    
+    .header>p{
+      font-size:2.3em;
+      text-align: center;
+    }
+  
+    .sec3-main{
+      padding: 1em 2em;
+    }
+    .sec3-main-head{
+      font-size:1.8em;
+    }
+    .sec3-main-side {
+    
+      font-size: 1em;
+    }
+    .sec3-side{
+      display: flex;
+      justify-content: center;
+      border-left: 0px solid rgba(57, 57, 63, 0.911)  ;
+    }
+    .sec3-side>img{  
+      height: 45vh;
+      width: 100%;
+    }
+    .sec4-main{
+      display: flex;
+      justify-content: center;
+      border-right: 0px solid rgba(57, 57, 63, 0.911)  ;
+    }
+    .sec4-main-head{
+      font-size:1.8em;
+    }
+    .sec4-main-side {
+    
+      font-size: 1em;
+    }
+    .sec4-main>img{
+      height: 45vh;
+      width: 100%;
+    }
+    .sec4-side{
+      padding: 1em 2em;
+    }
+  
+
+}
+
+@media only screen and (max-width: 340px) and (min-width: 301px){
+  ::-webkit-scrollbar{
+  width: 0.1em;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    background-color: #141416;
+    height: 100vh;
+    top:13vh;
+    align-items: center;
+    width: 100%;
+}
+.navbar-collapse.collapsing {
+    height: auto;
+    -webkit-transition: right 0.3s ease;
+    -o-transition: right 0.3s ease;
+    -moz-transition: right 0.3s ease;
+    transition: right 0.3s ease;
+    right: -100%;
+}
+.navbar-collapse.show {
+    right: 0;
+    -webkit-transition: right 0.3s ease-in;
+    -o-transition: right 0.3s ease-in;
+    -moz-transition: right 0.3s ease-in;
+    transition: right 0.3s ease-in;
+}
+.nav-item{
+  margin: 1.8em 0 0 0;
+}
+.animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+    width: 60%;
+}
+.con{
+    height: 2.6em;
+    padding: 0 2vw;
+}
+.logo{
+  font-size: 1.6em; 
+}
+
+.section{
+  padding: 15vh 0 15vh 3vw;
+}
+.sec-main{
+  font-size: 3.2em;
+  text-align: left;
+}
   .sec-side{
     font-size: 1em;
-    margin-top: 0;
     text-align: left;
-    width: 100%; 
-    padding-top: 0 2em;
+    width: 100%;   
   }
-  .section2{
-    padding: 0 0;
-  }
+
   .section2{
     padding: 0 0;
   }
@@ -605,50 +727,49 @@ body{
 }
 @media only screen and (max-width: 380px) and (min-width: 340px) {
  
-
   .navbar-collapse {
     position: absolute;
     background-color: #141416;
-    height: 100vh;
-    top:100%;
-    align-items: center;
-    width: 100%;
+    padding-bottom: 2vh;
+    height:fit-content;
+    top:13vh;
+    width: 100vw;
 }
 .navbar-collapse.collapsing {
-    height: auto;
-    -webkit-transition: right 0.3s ease;
-    -o-transition: right 0.3s ease;
-    -moz-transition: right 0.3s ease;
-    transition: right 0.3s ease;
+    padding-bottom: 2vh;
+    height:fit-content;
+    -webkit-transition: right 0.2s ease;
+    -o-transition: right 0.2s ease;
+    -moz-transition: right 0.2s ease;
+    transition: right 0.1s ease;
     right: -100%;
 }
 .navbar-collapse.show {
     right: 0;
-    -webkit-transition: right 0.3s ease-in;
-    -o-transition: right 0.3s ease-in;
-    -moz-transition: right 0.3s ease-in;
-    transition: right 0.3s ease-in;
+    -webkit-transition: right 0.2s ease-in;
+    -o-transition: right 0.2s ease-in;
+    -moz-transition: right 0.2s ease-in;
+    transition: right 0.2s ease-in;
 }
+
 .nav-item{
-  margin: 3em 0 0 0;
+  margin: 2em 0 0 0;
 }
-
-
+.con{
+    padding: 0 2vw;
+}
+.section{
+  padding: 15vh 0 15vh 3vw;
+}
 .sec-main{
-  padding: 1.5em 0 0 0;
   font-size: 4em;
-  text-align: center;
-  align-self: center  ;
 }
 
 .sec-side{
 
   font-size: 1.3em;
-  margin-top: 0;
-  text-align: center;
-  align-self: center  ;
   width: 100%; 
-  padding-top: 0;
+  
 }
 
 .section2{
@@ -718,43 +839,46 @@ height: fit-content;
   .navbar-collapse {
     position: absolute;
     background-color: #141416;
-    height: 100vh;
-    top:100%;
-    align-items: center;
-    width: 100%;
+    padding-bottom: 2vh;
+    height:fit-content;
+    top:13vh;
+    width: 100vw;
 }
 .navbar-collapse.collapsing {
-    height: auto;
-    -webkit-transition: right 0.3s ease;
-    -o-transition: right 0.3s ease;
-    -moz-transition: right 0.3s ease;
-    transition: right 0.3s ease;
+    padding-bottom: 2vh;
+    height:fit-content;
+    -webkit-transition: right 0.2s ease;
+    -o-transition: right 0.2s ease;
+    -moz-transition: right 0.2s ease;
+    transition: right 0.1s ease;
     right: -100%;
 }
 .navbar-collapse.show {
     right: 0;
-    -webkit-transition: right 0.3s ease-in;
-    -o-transition: right 0.3s ease-in;
-    -moz-transition: right 0.3s ease-in;
-    transition: right 0.3s ease-in;
+    -webkit-transition: right 0.2s ease-in;
+    -o-transition: right 0.2s ease-in;
+    -moz-transition: right 0.2s ease-in;
+    transition: right 0.2s ease-in;
 }
+
 .nav-item{
-  margin: 3em 0 0 0;
+  margin: 2em 0 0 0;
 }
-
-
+.con{
+    padding: 0 2vw;
+}
+.section{
+  padding: 20vh 0 20vh 3vw;
+}
 .sec-main{
-  padding: 1.5em 0 0 0;
   font-size: 4em;
-  text-align: center;
-  align-self: center  ;
 }
 
 .sec-side{
 
   font-size: 1.3em;
   margin-top: 0;
-  text-align: center;
+
   align-self: center  ;
   width: 100%; 
   padding-top: 0;
@@ -816,36 +940,41 @@ height: fit-content;
 #link>li{
     padding-left: 1.5em;
 }
-  .navbar-collapse {
-    position: absolute;
-    background-color: #141416;
-    height: 90vh;
-    top:10vh;
-    width: 100vw;
+.navbar-collapse {
+  position: absolute;
+  background-color: #141416;
+  padding-bottom: 2vh;
+  height:fit-content;
+  top:15vh;
+  width: 100vw;
 }
 .navbar-collapse.collapsing {
-    height: auto;
-    -webkit-transition: right 0.2s ease;
-    -o-transition: right 0.2s ease;
-    -moz-transition: right 0.2s ease;
-    transition: right 0.1s ease;
-    right: -100%;
+  padding-bottom: 2vh;
+  height:fit-content;
+  -webkit-transition: right 0.2s ease;
+  -o-transition: right 0.2s ease;
+  -moz-transition: right 0.2s ease;
+  transition: right 0.1s ease;
+  right: -100%;
 }
 .navbar-collapse.show {
-    right: 0;
-    -webkit-transition: right 0.2s ease-in;
-    -o-transition: right 0.2s ease-in;
-    -moz-transition: right 0.2s ease-in;
-    transition: right 0.2s ease-in;
+  right: 0;
+  -webkit-transition: right 0.2s ease-in;
+  -o-transition: right 0.2s ease-in;
+  -moz-transition: right 0.2s ease-in;
+  transition: right 0.2s ease-in;
 }
 
 .nav-item{
-  margin: 3em 0 0 3em;
+margin: 3em 0 0 0;
 }
-
- 
+.con{
+  padding: 0 2vw;
+}
+.section{
+  padding: 8em 0 9em 3vw;
+}
     .sec-main{
-      padding: 1.5em 0 0 0;
       font-size: 5em;
       
     }
@@ -907,16 +1036,15 @@ height: fit-content;
     padding-left: 1.5em;
 } 
    
-    .section{
-      padding: 7em 0 0 8vw;
-    }
+.section{
+  padding: 8em 0 8em 8vw;
+}
     .sec-main{
       font-size: 4.5em;
     }
        
-    .sec-side{
-    margin-top: 0 0 0 0;
-    padding-top: 0 0;
+  .sec-side{
+    width: 70%;
     font-size: 1.5em;
 }
 .section2{
@@ -955,12 +1083,10 @@ height: fit-content;
     padding-left: 2.2em;
 }
 .section{
-  padding: 6em 0 0 8vw
+  padding: 10em 0 10em 8vw;
 }
    
     .sec-side{
-      margin-top: 0 0 0 0;
-      padding-top: 0 0;
       font-size: 1.8em;
     }
  
@@ -996,12 +1122,8 @@ height: fit-content;
     padding-left: 2.2em;
 }
 .section{
-  padding: 7em 0 0 8vw;
+  padding: 12em 0 12em 8vw;
 }
-   
-    .sec-side{
-      margin-top: 0 0 0 0;
-      padding-top: 0 0;
-    }
+ 
 
   }
